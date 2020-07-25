@@ -5,6 +5,7 @@
 (defparameter *constant-table* nil)
 (defparameter *generic-type-table* nil)
 (defparameter *function-table* nil)
+(defparameter *variable-table* nil)
 
 
 (defun spec-name->path (name)

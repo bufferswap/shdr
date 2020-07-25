@@ -22,6 +22,7 @@
 		 (constant-table *constant-table*)
 		 (generic-type-table *generic-type-table*)
 		 (function-table *function-table*)
+		 (variable-table *variable-table*)
 		 )))
     (loop :for entry :across (db table)
           :do (when (funcall where entry)
