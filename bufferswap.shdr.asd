@@ -19,4 +19,5 @@
    (:file "query-engine")
    (:file "query-version")
    (:file "query-types")
-   (:file "query-constants")))
+   (:file "query-constants")
+   (:file "query-generic-types")))

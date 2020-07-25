@@ -42,8 +42,8 @@
       ct)))
 
 (defun load-constant-table (filename)
-  (let ((raw-version-data (read-spec filename)))
-    (make-constant-table raw-version-data)))
+  (let ((raw-data (read-spec filename)))
+    (make-constant-table raw-data)))
 
 (defun test-constant-table (&optional (file "constants"))
   (setf *constant-table* (load-constant-table file))

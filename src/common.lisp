@@ -3,6 +3,7 @@
 (defparameter *version-table* nil)
 (defparameter *type-table* nil)
 (defparameter *constant-table* nil)
+(defparameter *generic-type-table* nil)
 
 
 (defun spec-name->path (name)

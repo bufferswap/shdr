@@ -19,7 +19,9 @@
         (table (ecase from
                  (version-table *version-table*)
                  (type-table *type-table*)
-		 (constant-table *constant-table*))))
+		 (constant-table *constant-table*)
+		 (generic-type-table *generic-type-table*)
+		 )))
     (loop :for entry :across (db table)
           :do (when (funcall where entry)
                 (push entry results)))

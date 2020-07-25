@@ -45,8 +45,8 @@
       tt)))
 
 (defun load-type-table (filename)
-  (let ((raw-version-data (read-spec filename)))
-    (make-type-table raw-version-data)))
+  (let ((raw-data (read-spec filename)))
+    (make-type-table raw-data)))
 
 (defun test-type-table (&optional (file "types"))
   (setf *type-table* (load-type-table file))
