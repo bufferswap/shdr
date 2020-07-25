@@ -20,4 +20,5 @@
    (:file "query-version")
    (:file "query-types")
    (:file "query-constants")
-   (:file "query-generic-types")))
+   (:file "query-generic-types")
+   (:file "query-functions")))
